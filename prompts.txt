@@ -1,0 +1,8 @@
+Work on Tasks:
+
+	<Feature description> needs to be implemented. Read the three documents in the `<folder name>` folder for more details: `requirements.md`, `design.md` and `tasks.md`. Make sure to read them in full and analyze all relevant code. Then proceed to implement <tasks to implement> from the `tasks.md` file while following the design and requirements from the `requirements.md` and `design.md` files. Make sure to analyze all relevant code before addressing each task. Once done, mark the tasks as completed with "[x]".
+	
+Address comments after implementation:
+
+	<Feature description> has just been implemented by you in another session. Read the three documents in the `<folder name>` folder for more details: `requirements.md`, `design.md` and `tasks.md`. Make sure to read them in full and analyze relevant code. Then proceed to address the following comments one by one, think hard and make sure to analyze all relevant code before addressing each task: <Comments list>
+	
