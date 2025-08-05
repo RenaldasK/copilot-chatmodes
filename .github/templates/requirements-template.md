@@ -32,13 +32,17 @@
 ## Non-Functional Requirements
 
 ### Performance
+
 - [Performance requirements]
 
 ### Security
+
 - [Security requirements]
 
 ### Reliability
+
 - [Reliability requirements]
 
 ### Usability
+
 - [Usability requirements]

@@ -38,7 +38,7 @@
 
 ### Error Messages
 
-```
+```text
 [Include any error messages, stack traces, or logs]
 ```
 
