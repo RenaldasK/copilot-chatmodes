@@ -114,7 +114,6 @@
 [Specific modifications needed]
 
 1. **Change 1**: [Description]
-
    - File: `path/to/file`
    - Modification: [What needs to be changed]
 
