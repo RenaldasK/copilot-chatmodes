@@ -288,7 +288,7 @@
 
 ---
 
-**Review Metadata**
+### Review Metadata
 
 - **Files Reviewed**: [Number]
 - **Complexity Score**: [Overall complexity assessment]

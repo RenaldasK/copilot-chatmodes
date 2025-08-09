@@ -14,7 +14,7 @@
 
 **User Story:** As a [role], I want [feature], so that [benefit]
 
-#### Acceptance Criteria
+#### Requirement 1 Acceptance Criteria
 
 1. WHEN [event] THEN [system] SHALL [response]
 2. IF [precondition] THEN [system] SHALL [response]
@@ -24,7 +24,7 @@
 
 **User Story:** As a [role], I want [feature], so that [benefit]
 
-#### Acceptance Criteria
+#### Requirement 2 Acceptance Criteria
 
 1. WHEN [event] THEN [system] SHALL [response]
 2. IF [precondition] THEN [system] SHALL [response]
