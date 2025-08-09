@@ -1,6 +1,6 @@
 # Copilot custom chat modes
 
-Custom chatmodes for Copilot for structured workflows. Largely based on [claude-code-spec-workflow](https://github.com/Pimzino/claude-code-spec-workflow), adapted for Copilot chatmodes.
+Custom [Copilot chatmodes](https://code.visualstudio.com/docs/copilot/chat/chat-modes) for structured workflows. Largely based on agents and templates from [claude-code-spec-workflow](https://github.com/Pimzino/claude-code-spec-workflow) and adapted for Copilot chatmodes.
 
 Feature implementation: **Requirements → Design → Tasks → Implementation -> Review -> Fixes**
 
