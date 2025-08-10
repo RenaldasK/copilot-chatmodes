@@ -12,7 +12,7 @@
   - Define TypeScript interfaces for feature data structures
   - Extend existing base interfaces from base.ts
   - Purpose: Establish type safety for feature implementation
-  - _Requirements: 1.1_
+  - _Requirements: 1.1, 1.2, 1.3_
 
 - [ ] 2. Create base model class
 
@@ -20,7 +20,7 @@
   - Implement base model extending BaseModel class
   - Add validation methods using existing validation utilities
   - Purpose: Provide data layer foundation for feature
-  - _Requirements: 2.1_
+  - _Requirements: 2.1, 2.2, 2.3_
 
 - [ ] 3. Add specific model methods
 
@@ -52,7 +52,7 @@
   - Create concrete service implementation using FeatureModel
   - Add error handling with existing error utilities
   - Purpose: Provide business logic layer for feature operations
-  - _Requirements: 3.2_
+  - _Requirements: 3.1, 3.2_
 
 - [ ] 7. Add service dependency injection
 
@@ -60,7 +60,7 @@
   - Register FeatureService in dependency injection container
   - Configure service lifetime and dependencies
   - Purpose: Enable service injection throughout application
-  - _Requirements: 3.1_
+  - _Requirements: 3.2, 3.3_
 
 - [ ] 8. Create service unit tests
 
@@ -68,7 +68,7 @@
   - Write tests for service methods with mocked dependencies
   - Test error handling scenarios
   - Purpose: Ensure service reliability and proper error handling
-  - _Requirements: 3.2, 3.3_
+  - _Requirements: 3.1, 3.2, 3.3_
 
 - [ ] 4. Create API endpoints
 
@@ -92,14 +92,14 @@
 - [ ] 5. Add frontend components
 
   - Plan component architecture
-  - _Requirements: 5.0_
+  - _Requirements: 5.1_
 
 - [ ] 5.1 Create base UI components
 
   - Set up component structure
   - Implement reusable components
   - Add styling and theming
-  - _Requirements: 5.1_
+  - _Requirements: 5.1, 5.2_
 
 - [ ] 5.2 Implement feature-specific components
 
@@ -143,7 +143,7 @@
 (for reference only, not to be included in the final document)
 
 - Use checkbox format: `- [ ] Task number. Task description`
-- **Specify files**: Always include files' paths to create/modify
+- **Specify files**: Include files' paths to create/modify
 - **Include implementation details** as bullet points
 - Reference requirements using: `_Requirements: X.Y, Z.A_`
 - Focus only on coding tasks (no deployment, user testing, etc.)
