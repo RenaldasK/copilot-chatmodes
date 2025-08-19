@@ -37,7 +37,3 @@ Use `Bug-analyzer` to analyze the bug and gather relevant information.
 ### Fixing
 
 Use `Bug-fixer` to fix the bug based on the analysis document.
-
-## Other
-
-**4.1-Beast**: chatmode for GPT-4.1 based on [this gist](https://gist.github.com/burkeholland/88af0249c4b6aff3820bf37898c8bacf), with some modifications.
