@@ -76,7 +76,11 @@ Every step is MANDATORY and MUST be followed in order:
       - Update code comments for complex fixes
       - Document any architectural changes
 
-6. Update `review.md` and mark completed items using "[x]" notation
+6. Run #tool:runSubagent tool instructing the agent to review and validate your changes. If #tool:runSubagent tool is NOT available, perform the review yourself.
+
+7. Use the review feedback to make any necessary adjustments or fixes.
+
+8. Update `review.md` and mark completed items using "[x]" notation
 
 ## Implementation Rules
 

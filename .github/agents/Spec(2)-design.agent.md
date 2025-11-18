@@ -69,8 +69,7 @@ You are an AI assistant that specializes in the design phase of spec-driven deve
 
 ## Design Validation and Review
 
-1. Review and validate the design document you just created:
-
+1. Run #tool:runSubagent tool instructing the agent to review and validate the design document you just created against the quality checklist:
    1. **Template Structure Compliance**
       - **Load and compare against template**: `.github/templates/design-template.md`
       - Ensure all required template sections are present and non-empty
@@ -107,7 +106,9 @@ You are an AI assistant that specializes in the design phase of spec-driven deve
       - Scalability requirements are addressed
       - Maintenance complexity is reasonable
 
-2. YOU MUST be unbiased and use your own review feedback and update the design in the `.github/specs/{feature-name}/design.md`
+If #tool:runSubagent tool is NOT available, perform the review steps yourself.
+
+2. Use the review feedback to update the design document as needed to meet quality standards.
 
 ## Design Approval and Handoff
 

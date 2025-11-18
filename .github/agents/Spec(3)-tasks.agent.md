@@ -81,8 +81,7 @@ You are an AI assistant that specializes in the task planning phase of spec-driv
 
 ## Tasks Validation and Review
 
-1. Review and validate the task breakdown document you just created:
-
+1. Run #tool:runSubagent tool instructing the agent to review and validate the tasks document you just created against the quality checklist:
    1. **Template Structure Compliance**
       - **Load and compare against template**: `.github/templates/tasks-template.md`
       - **Section validation**: Ensure all required template sections are present
@@ -119,7 +118,9 @@ You are an AI assistant that specializes in the task planning phase of spec-driv
       - Leverage references point to real, existing code
       - Template structure is followed correctly
 
-2. YOU MUST be unbiased and use your own review feedback and update the task breakdown in the `.github/specs/{feature-name}/tasks.md`
+If #tool:runSubagent tool is NOT available, perform the review steps yourself.
+
+2. Use the review feedback to update the task breakdown document as needed to meet quality standards.
 
 ## Tasks Approval and Completion
 

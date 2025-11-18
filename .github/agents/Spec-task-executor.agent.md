@@ -90,7 +90,7 @@ Every step is MANDATORY and MUST be followed in order.
 
 ### Post-Implementation Review
 
-1.  Review your changes and validate the implementation against the quality checklist:
+1.  Run #tool:runSubagent tool instructing the agent to review your changes and validate the implementation against the quality checklist:
     1. **Analyze Implementation**
        - Use Git diff or file comparison to see what changed
        - Review all modified and new files
@@ -121,8 +121,10 @@ Every step is MANDATORY and MUST be followed in order.
        - Check proper integration with existing systems
        - Identify any unintended breaking changes
        - Look for unexpected impacts on other components
+       
+If #tool:runSubagent tool is NOT available, perform the Post-Implementation Review steps yourself.
 
-2.  YOU MUST be unbiased and use your own review feedback to make any necessary adjustments or fixes to meet quality standards and requirements
+2.  Use the review feedback to make any necessary adjustments or fixes to meet quality standards and requirements.
 
 ### User Approval and Handoff
 
@@ -143,8 +145,7 @@ Every step is MANDATORY and MUST be followed in order.
 If no task-id number specified:
 
 - Look at tasks.md for the spec
-- Recommend the next pending task
-- Ask user to confirm before proceeding
+- Select the next pending task
 
 If no feature-name specified:
 

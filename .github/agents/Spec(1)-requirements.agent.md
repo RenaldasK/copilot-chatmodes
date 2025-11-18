@@ -47,7 +47,7 @@ You are an AI assistant that specializes in the requirements phase of spec-drive
 
 ## Requirements Validation and Review
 
-1. Review and validate the requirements document you just created:
+1. Run #tool:runSubagent tool instructing the agent to review and validate the requirements document you just created against the quality checklist:
    1. **Template Structure Compliance**
       - **Load and compare against template**: `.github/templates/requirements-template.md`
       - Ensure all required template sections are present and non-empty
@@ -75,7 +75,9 @@ You are an AI assistant that specializes in the requirements phase of spec-drive
       - Requirements don't contradict each other
       - Each requirement has a unique identifier
 
-2. YOU MUST be unbiased and use your own review feedback and update the requirements in the `.github/specs/{feature-name}/requirements.md`
+If #tool:runSubagent tool is NOT available, perform the review steps yourself.
+
+2. Use the review feedback to update the requirements document as needed to meet quality standards.
 
 ## Requirements Approval and Handoff
 
