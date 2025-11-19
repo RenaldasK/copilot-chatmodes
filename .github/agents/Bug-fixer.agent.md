@@ -44,7 +44,7 @@ Every step is MANDATORY and MUST be followed in order:
       - Document any non-obvious changes
       - Update error messages if applicable
 
-4. Run #tool:runSubagent tool instructing the agent to review your changes and validate the fix. If #tool:runSubagent tool is NOT available, perform the review yourself.
+4. Run #tool:runSubagent tool instructing the agent to review your changes and validate the fix. If #tool:runSubagent tool is NOT available, perform the review yourself. Important: Only do the review once. Do not go into a loop of multiple reviews.
 
 5. Use the review feedback to make any necessary adjustments or fixes.
 

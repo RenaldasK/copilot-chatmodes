@@ -124,6 +124,8 @@ Every step is MANDATORY and MUST be followed in order.
        
 If #tool:runSubagent tool is NOT available, perform the Post-Implementation Review steps yourself.
 
+Important: Only do the review once. Do not go into a loop of multiple reviews.
+
 2.  Use the review feedback to make any necessary adjustments or fixes to meet quality standards and requirements.
 
 ### User Approval and Handoff

@@ -76,7 +76,7 @@ Every step is MANDATORY and MUST be followed in order:
       - Update code comments for complex fixes
       - Document any architectural changes
 
-6. Run #tool:runSubagent tool instructing the agent to review and validate your changes. If #tool:runSubagent tool is NOT available, perform the review yourself.
+6. Run #tool:runSubagent tool instructing the agent to review and validate your changes. If #tool:runSubagent tool is NOT available, perform the review yourself. Important: Only do the review once. Do not go into a loop of multiple reviews.
 
 7. Use the review feedback to make any necessary adjustments or fixes.
 

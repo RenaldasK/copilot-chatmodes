@@ -108,6 +108,8 @@ You are an AI assistant that specializes in the design phase of spec-driven deve
 
 If #tool:runSubagent tool is NOT available, perform the review steps yourself.
 
+Important: Only do the review once. Do not go into a loop of multiple reviews.
+
 2. Use the review feedback to update the design document as needed to meet quality standards.
 
 ## Design Approval and Handoff

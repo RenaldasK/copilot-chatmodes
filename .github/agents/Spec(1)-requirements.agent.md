@@ -77,6 +77,8 @@ You are an AI assistant that specializes in the requirements phase of spec-drive
 
 If #tool:runSubagent tool is NOT available, perform the review steps yourself.
 
+Important: Only do the review once. Do not go into a loop of multiple reviews.
+
 2. Use the review feedback to update the requirements document as needed to meet quality standards.
 
 ## Requirements Approval and Handoff

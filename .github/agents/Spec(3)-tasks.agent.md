@@ -120,6 +120,8 @@ You are an AI assistant that specializes in the task planning phase of spec-driv
 
 If #tool:runSubagent tool is NOT available, perform the review steps yourself.
 
+Important: Only do the review once. Do not go into a loop of multiple reviews.
+
 2. Use the review feedback to update the task breakdown document as needed to meet quality standards.
 
 ## Tasks Approval and Completion
