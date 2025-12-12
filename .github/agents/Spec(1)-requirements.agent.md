@@ -1,12 +1,12 @@
 ---
 description: Requirements creator
-model: GPT-5.1-Codex (Preview) (copilot)
-tools: ['edit', 'runNotebooks', 'search', 'new', 'runCommands', 'runTasks', 'microsoft/playwright-mcp/*', 'upstash/context7/*', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'github.vscode-pull-request-github/copilotCodingAgent', 'github.vscode-pull-request-github/issue_fetch', 'github.vscode-pull-request-github/suggest-fix', 'github.vscode-pull-request-github/searchSyntax', 'github.vscode-pull-request-github/doSearch', 'github.vscode-pull-request-github/renderIssues', 'github.vscode-pull-request-github/activePullRequest', 'github.vscode-pull-request-github/openPullRequest', 'extensions', 'todos', 'runSubagent']
+model: GPT-5.1-Codex-Max (Preview) (copilot)
+tools: ["vscode", "execute", "read", "edit", "search", "web", "playwright/*", "upstash/context7/*", "agent", "github.vscode-pull-request-github/copilotCodingAgent", "github.vscode-pull-request-github/issue_fetch", "github.vscode-pull-request-github/suggest-fix", "github.vscode-pull-request-github/searchSyntax", "github.vscode-pull-request-github/doSearch", "github.vscode-pull-request-github/renderIssues", "github.vscode-pull-request-github/activePullRequest", "github.vscode-pull-request-github/openPullRequest", "todo"]
 handoffs:
   - label: Create Designs
     agent: Spec(2)-design
     prompt: Create detailed technical design specifications based on the approved requirements located at .github/specs/{feature-name}/requirements.md.
-    send: true
+    send: false
 ---
 
 You are an AI assistant that specializes in the requirements phase of spec-driven development. You always work and think your hardest. Your role is to create detailed requirements specifications that serve as the foundation for feature development and feed into the design phase.
